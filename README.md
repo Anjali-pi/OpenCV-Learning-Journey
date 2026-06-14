@@ -1,38 +1,79 @@
-penCV Image Processing Basics
-1- Overview
-This repository contains a beginner-level  demonstrating fundamental image processing techniques using Python and OpenCV. it  applies various transformations on a single image to understand core concepts of computer vision.
+# Image Processing with OpenCV: A Computer Vision Learning Project
 
-2- Features / Operations
-This project performs the following operations:
+##About the Project
+This repository contains a structured collection of OpenCV programs covering fundamental to intermediate computer vision concepts. It demonstrates image processing, filtering, transformations, color analysis, and video processing using Python.
 
- Load and display image
- Brightness adjustment
- Convert image to grayscale
- Resize image
- Crop region of interest
- Rotate image (45 degrees)
- Apply Gaussian blur
- Edge detection using Canny Draw rectangle and add label
- Add custom text on image
- 
+The goal is to build strong foundational knowledge in Computer Vision through practical implementation.
+
+📁 Repository Structure
+opencv-learning/
+│
+├── 01_images_read_and_write/
+├── 02_image_filter/
+├── 03_color_space_and_thresholding/
+├── 04_blur_images_and_edges_detection/
+├── 05_image_transformations/
+├── 06_working_with_video_files/
+└── README.md
+
+## Topics Covered
+1️. Image Read & Write
+Loading images using OpenCV
+Saving processed images
+Basic image operations (brightness adjustment, cropping, resizing, rotation)
+
+2️. Image Filtering
+Kernel-based filtering
+Horizontal, vertical, diagonal filters
+Custom convolution operations using cv2.filter2D
+
+3️. Color Space & Thresholding
+RGB ↔ BGR conversion
+HSV and LAB color spaces
+Grayscale conversion
+Image masking using cv2.inRange
+Thresholding techniques for segmentation
+
+4️. Blurring & Edge Detection
+Average blur
+Gaussian blur
+Median blur
+Sobel edge detection
+Laplacian edge detection
+Canny edge detection
+
+5️. Image Transformations
+Affine transformation
+Perspective transformation
+Rotation
+Shearing
+Translation
+
+6️. Video Processing
+Reading video files frame-by-frame
+Writing processed video output
+Real-time video display
+Grayscale video conversion
+Blur video processing
+Edge detection in video
+Threshold video processing
+Contour detection in video
+Frame resizing and annotation
+
 ## Technologies Used
-Python 
-OpenCV (cv2)
+1.Python 
+2.OpenCV (cv2)
+3.NumPy
+4.Matplotlib
+5.Jupyter Notebook
 
-##Input Image
-mountain.jpg (sample input image used for processing)
-##Output Images Generated
+📂 Input Files
+##Sample images (.jpg, .png)
+##Sample video (.mp4) used for processing (not uploaded due to GitHub size limits)
 
-After running the script, the following outputs are created:
-output.jpg → Brightness adjusted image
-gray.jpg → Grayscale image
-resized.jpg → Resized image
-cropped.jpg → Cropped section
-rotated.jpg → Rotated image
-blurred.jpg → Blurred image
-edges.jpg → Edge detection result
-annotated.jpg → Image with rectangle and text
-text.jpg → Image with custom text
+**Note on Video Files
+Due to GitHub file size limitations (25MB), video files are not included in this repository.
+Instead, only code implementations for video processing are provided.
 
 ## How to Run
 Using Jupyter Notebook
@@ -42,26 +83,39 @@ Open the notebook file:
 Open the .ipynb file in Jupyter Notebook or VS Code
 Run all cells step by step to see outputs.
 
-#If using VS Code Notebook
+## If using VS Code Notebook
 Open .ipynb file
 Click Run All
 
-# Important Note
+## Important Note
 Since OpenCV uses image windows (cv2.imshow()), in notebooks:
+
 Sometimes cv2.imshow() may not work properly
 You can use matplotlib instead if needed
 
-📚 What I Learned
-Basics of OpenCV library
-Image transformations and filtering
-Edge detection techniques
-Drawing shapes and text on images
-Working with pixel-level image manipulation
+# Key Learning Outcomes
+Understanding image representation in OpenCV
+Applying filters and transformations
+Working with different color spaces
+Implementing edge detection and segmentation
+Processing real-time video streams
+Building foundational Computer Vision skills
+
+## Applications of This Project
+Image processing systems
+Object detection pipelines
+Surveillance systems
+Autonomous systems (basic vision)
+AI & Machine Learning preprocessing
 
 👩‍💻 Author
 Anjali Singh Yadav
 
-# Note
+# Project Type
+Beginner → Intermediate Computer Vision Learning Repository
 
-This is a beginner-friendly computer vision project created for learning and practice purposes.
+
+Just tell me 👍
+
+
 
