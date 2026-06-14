@@ -78,22 +78,30 @@ Frame resizing and annotation
 ## Input Files
  
 Sample images (.jpg, .png)
+
 Sample video (.mp4) used for processing (not uploaded due to GitHub size limits)
 
 **Note on Video Files
+
 Due to GitHub file size limitations (25MB), video files are not included in this repository.
 Instead, only code implementations for video processing are provided.
 
 ## How to Run
 Using Jupyter Notebook
+
 Install OpenCV (run this in a notebook cell):
+
 !pip install opencv-python
+
 Open the notebook file:
+
 Open the .ipynb file in Jupyter Notebook or VS Code
+
 Run all cells step by step to see outputs.
 
 ## If using VS Code Notebook
 Open .ipynb file
+
 Click Run All
 
 ## Important Note
@@ -103,19 +111,29 @@ Sometimes cv2.imshow() may not work properly
 You can use matplotlib instead if needed
 
 # Key Learning Outcomes
-Understanding image representation in OpenCV
-Applying filters and transformations
-Working with different color spaces
-Implementing edge detection and segmentation
-Processing real-time video streams
-Building foundational Computer Vision skills
+1.Understanding image representation in OpenCV
+
+2.Applying filters and transformations
+
+3.Working with different color spaces
+
+4.Implementing edge detection and segmentation
+
+5.Processing real-time video streams
+
+6.Building foundational Computer Vision skills
 
 ## Applications of This Project
-Image processing systems
-Object detection pipelines
-Surveillance systems
-Autonomous systems (basic vision)
-AI & Machine Learning preprocessing
+
+1.Image processing systems
+
+2.Object detection pipelines
+
+3.Surveillance systems
+
+4.Autonomous systems (basic vision)
+
+5.AI & Machine Learning preprocessing
 
 ## Author
 Anjali Singh Yadav
