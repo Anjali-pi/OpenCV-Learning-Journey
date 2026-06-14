@@ -77,8 +77,8 @@ Frame resizing and annotation
 
 ## Input Files
  
-##Sample images (.jpg, .png)
-##Sample video (.mp4) used for processing (not uploaded due to GitHub size limits)
+Sample images (.jpg, .png)
+Sample video (.mp4) used for processing (not uploaded due to GitHub size limits)
 
 **Note on Video Files
 Due to GitHub file size limitations (25MB), video files are not included in this repository.
