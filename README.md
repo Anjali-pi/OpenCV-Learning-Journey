@@ -9,11 +9,17 @@ The goal is to build strong foundational knowledge in Computer Vision through pr
 opencv-learning/
 │
 ├── 01_images_read_and_write/
+
 ├── 02_image_filter/
+
 ├── 03_color_space_and_thresholding/
+
 ├── 04_blur_images_and_edges_detection/
+
 ├── 05_image_transformations/
+
 ├── 06_working_with_video_files/
+
 └── README.md
 
 ## Topics Covered
