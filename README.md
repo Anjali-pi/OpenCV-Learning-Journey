@@ -120,11 +120,10 @@ AI & Machine Learning preprocessing
 ## Author
 Anjali Singh Yadav
 
-# Project Type
-Beginner → Intermediate Computer Vision Learning Repository
 
 
-Just tell me 👍
+
+
 
 
 
