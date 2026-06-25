@@ -140,8 +140,7 @@ You can use matplotlib instead if needed
 
 5.AI & Machine Learning preprocessing
 
-## Author
-Anjali Singh Yadav
+
 
 
 
